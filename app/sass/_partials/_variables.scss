@@ -1,0 +1,89 @@
+/*_variables.scss */
+
+/* Body variables */
+$nopadding: 0;
+$border-none: 0;
+$littlepadding: 2rem;
+$smallpadding: 10px 0 10px 0;
+
+
+// SIDEBAR PADDING AND MARGIN
+$sidebarpadding1: 50px;
+$sidebarpadding2: 35px;
+
+$sidebarmargin1: 50px;
+$sidebarmargin2: 35px;
+
+/* Text and fonts */
+$text-color: #FFF;
+$base-font-size: 16px;
+$base-font-family: 'Montserrat', sans-serif;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+
+$smallerfont: 1.3rem;
+
+// TOP HEADLINE
+$top-headline-font-size: 4rem;
+
+// REGULAR HEADLINE
+$headline-font-weight: 700;
+$headline-font-size: 2.8rem;
+$headline-line-height: 1.4;
+
+// SMALL HEADLINE
+$smallheadline-font-weight: 700;
+$smallheadline-font-size: 2.4rem;
+$smallheadline-line-height: 1.3;
+
+$subline-font-weight: 400;
+$subline-font-size: 2.5rem;
+$subline-line-height: 1.2;
+$subline-opacity: 0.5;
+
+// SECTION HEADLINE
+$section-font-weight: 500;
+$section-font-size: 1.3rem;
+$section-line-height: 1.3;
+
+// SMALL SECTION HEADLINE
+$sectionsmall-font-weight: 700;
+$sectionsmall-font-size: 1.4rem;
+$sectionsmall-line-height: 1.3;
+$sectionsmall-letter-spacing: 0.8px;
+
+$thin-font-weight: 300;
+$lowopac: 0.85;
+
+/* Custom Button 1 variables */
+$button-border-radius: 6px;
+$button-padding: 15px 30px;
+$button-line-height: 1;
+$button-hover-color: #C23B22;
+$button-color: #FFF;
+
+/* Custom Button 2 variables */
+$button-hover-color2: #FFDA44;
+$button-color2: #61e69d;
+$button-padding2: 10px 20px;
+
+/* Div colors */
+$black-color: #000;
+$mat-red: #F25F66;
+$purple-color: #5E6B9B;
+$red-color: #C23B22;
+$dark-red-color: #8B0000;
+$light-red-color: #FBAEA8;
+$white-color: #FFFFFF;
+$section-grey-color: #999;
+$light-grey-color: #FAFAFA;
+$light-blue-color: #eff7fc;
+$blue-color: #3887BE;
+$beige-color: #EFAD43;
+$border-color: #e9eaec;
+$dark-green-color: #006301;
+$light-green-color: #5FCF80;
+
+/* Images */
+$img-border-radius: 10px;
+$regular-height: 200px;

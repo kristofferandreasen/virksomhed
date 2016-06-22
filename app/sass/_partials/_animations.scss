@@ -1,0 +1,135 @@
+// Larger Animations
+.floater{
+	animation-name: floater;
+	-webkit-animation-name: floater;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+
+	visibility: visible !important;	
+}
+
+@keyframes floater {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floater {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+.roll:hover {
+	animation-name: barrelRoll;
+	-webkit-animation-name: barrelRoll;	
+
+	animation-duration: 0.4s;	
+	-webkit-animation-duration: 0.4s;
+
+	animation-timing-function: ease;	
+	-webkit-animation-timing-function: ease;
+
+	animation-iteration-count: 1;
+	-webkit-animation-iteration-count: 1;
+
+	visibility: visible !important;	
+}
+
+@keyframes barrelRoll {
+    from { transform: rotate(0deg) }
+    to   { transform: rotate(360deg) }
+}
+
+@-webkit-keyframes barrelRoll {
+    from { -webkit-transform: rotate(0deg) }
+    to   { -webkit-transform: rotate(360deg) }
+}
+
+
+.spinner:hover{
+	animation-name: spinner;
+	-webkit-animation-name: spinner;	
+
+	animation-duration: 2s;	
+	-webkit-animation-duration: 2s;
+
+	animation-timing-function: linear;	
+	-webkit-animation-timing-function: linear;
+
+	-webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;	
+
+	visibility: visible !important;						
+}
+@-webkit-keyframes spinner {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spinner {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+// fadeInUp from Animate.css
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+// Small hover animation
+.simplehover {
+
+}
+.simplehover:hover {
+	position: relative;
+	right: 10px;
+}
+.hoverborder:hover {
+	border: 3px solid $light-grey-color;
+}
